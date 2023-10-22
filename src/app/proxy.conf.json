@@ -1,0 +1,7 @@
+{
+     "/api/*": {
+         "target": "http://20.204.74.38:8095/gyani",
+         "secure": false,
+         "logLevel": "debug"
+     }
+ }

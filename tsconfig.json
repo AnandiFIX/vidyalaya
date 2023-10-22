@@ -14,6 +14,8 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
@@ -29,5 +31,6 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
+
   }
 }
