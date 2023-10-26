@@ -1,3 +1,16 @@
 mat-grid-tile {
      background: lightblue;
    }
+   .flex {
+    display: flex;
+   }
+
+   .flex img {
+    float: right;
+   }
+   .main-content {
+    margin-top: 2rem;
+   }
+   mat-icon {
+    color: blue;
+   }

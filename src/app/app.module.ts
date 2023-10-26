@@ -20,6 +20,7 @@ import { SidenavComponent } from './common/sidenav/sidenav.component';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatDividerModule} from '@angular/material/divider';
+import { NgChartsModule } from 'ng2-charts';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import {MatDividerModule} from '@angular/material/divider';
     MatToolbarModule,
     MatTooltipModule,
     MatExpansionModule,
-    MatDividerModule
+    MatDividerModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
