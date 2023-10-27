@@ -1,0 +1,93 @@
+<div class="container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>
+        <h2>Add Organization</h2>
+      </mat-card-title>
+    </mat-card-header>
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label>Organization Name </mat-label>
+        <input
+          matInput
+          placeholder="Organization Name"
+          name="Organization Name"
+          value=""
+        />
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Branch Name</mat-label>
+        <input matInput placeholder="Branch Name" name="Branch Name" value="" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label> Branch Code </mat-label>
+        <input
+          matInput
+          placeholder="
+           Branch Code"
+          name="code"
+          value=""
+        />
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Address 1 </mat-label>
+        <input matInput placeholder="Address 1" name="Address 1" value="" />
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label> Address 2 </mat-label>
+        <input matInput placeholder="	Address 2" name="	Address 2" value="" />
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>State</mat-label>
+        <input matInput placeholder="State" name="State" value="" />
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Area/City </mat-label>
+        <input matInput placeholder="Area/City	" name="Area/City	" value="" />
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Pin Code </mat-label>
+        <input matInput placeholder="Pincode" name="Pincode" value="" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Mobile number</mat-label>
+        <input matInput placeholder="spocnumber" name="spocnumber" value="" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Spoc number</mat-label>
+        <input matInput placeholder="spocnumber" name="spocnumber" value="" />
+      </mat-form-field>
+    </form>
+
+    <div class="row">
+      <section>
+        <div class="example-button-row">
+          <button mat-raised-button color="primary" (click)="showDivTab()">
+            Campus type Details:
+          </button>
+          <button
+            mat-raised-button
+            color="warn"
+            [hidden]="hideDivOne"
+            (click)="hideDivTab()"
+          >
+            Hide Campus type Details:
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <div [hidden]="hideDivOne">
+      <div class="btn">
+        <button mat-raised-button color="primary">Submit</button>
+        <button mat-raised-button color="warn">Cancel</button>
+      </div>
+    </div>
+  </mat-card>
+</div>

@@ -27,15 +27,24 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatTableModule} from '@angular/material/table';
 import { FooterComponent } from './common/footer/footer.component';
-
-
+import { BranchregComponent } from './add/branchreg/branchreg.component';
+import { BranchdetailsComponent } from './view/branchdetails/branchdetails.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatMenuModule } from "@angular/material/menu";
+import { RoleComponent } from './view/role/role.component';
+import { RolecreationComponent } from './add/rolecreation/rolecreation.component';
+import {MatSelectModule} from '@angular/material/select';
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     LoginComponent,
     SidenavComponent,
-    FooterComponent
+    FooterComponent,
+    BranchregComponent,
+    BranchdetailsComponent,
+    RoleComponent,
+    RolecreationComponent
   ],
   imports: [
     BrowserModule,
@@ -56,7 +65,10 @@ import { FooterComponent } from './common/footer/footer.component';
     NgChartsModule,
     MatFormFieldModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    MatDialogModule,
+    MatMenuModule,
+    MatSelectModule
     
   ],
   providers: [],
