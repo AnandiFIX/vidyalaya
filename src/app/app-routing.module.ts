@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { SidenavComponent } from './common/sidenav/sidenav.component';
 import { AuthGuardService } from './auth-guard.service';
+import { FooterComponent } from './common/footer/footer.component';
 
 
 const routes: Routes = [

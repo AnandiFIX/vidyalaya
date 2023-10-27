@@ -1,0 +1,9 @@
+mat-card {
+     background-color: #594fbd;
+     margin-top: 1rem;
+}
+
+mat-card-content{
+     color: #fff;
+     text-align: right;
+}

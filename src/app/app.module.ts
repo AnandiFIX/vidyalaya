@@ -26,6 +26,7 @@ import { NgChartsModule } from 'ng2-charts';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatTableModule} from '@angular/material/table';
+import { FooterComponent } from './common/footer/footer.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import {MatTableModule} from '@angular/material/table';
     AppComponent,
     DashboardComponent,
     LoginComponent,
-    SidenavComponent
+    SidenavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
