@@ -23,6 +23,11 @@ import {MatDividerModule} from '@angular/material/divider';
 import { NgChartsModule } from 'ng2-charts';
 
 
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatTableModule} from '@angular/material/table';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,7 +51,11 @@ import { NgChartsModule } from 'ng2-charts';
     MatTooltipModule,
     MatExpansionModule,
     MatDividerModule,
-    NgChartsModule
+    NgChartsModule,
+    MatFormFieldModule,
+    MatPaginatorModule,
+    MatTableModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
