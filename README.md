@@ -1,4 +1,6 @@
 USE THESE COMMONDS : 
 
 
-npm install xlsx
+For XLSX  ==   >>  npm install xlsx
+
+For Chart == >>   npm install --save chart.js
